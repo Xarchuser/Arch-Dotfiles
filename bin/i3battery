@@ -1,0 +1,24 @@
+#!/bin/bash
+NUM=$(cat /sys/class/power_supply/BAT0/capacity)
+STATE=$(cat /sys/class/power_supply/BAT0/status)
+
+colorget() {
+if [[ $NUM -ge 80 ]]; then
+	color="#AEC795"
+elif [[ $NUM -ge 60 ]]; then
+	color="#F0C674"
+elif [[ $NUM -ge 40 ]]; then
+	color="#C7AE95"
+elif [[ $NUM -ge 20 ]]; then
+	color="#C75959"
+else
+	color="#FF0000"
+fi ;}
+
+if [[ $STATE == "Charging" ]]; then
+	 color="#AEC795"
+else
+	colorget
+fi
+
+echo "<span color='$color'>$(echo $STATE | sed -e "s/,//g;s/Discharging/🔌/;s/Charging//;s/Unknown/❓/;s/Full/⚡/;s/ 0*/ /g;s/ :/ /g") $(echo $NUM | sed -e 's/$/%/')</span>"

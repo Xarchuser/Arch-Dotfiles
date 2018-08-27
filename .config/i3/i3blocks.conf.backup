@@ -1,0 +1,51 @@
+separator_block_width=14
+
+[kernel]
+label= Kernel:
+command=uname -r
+#color=#f6546a
+color=#FFFFFF
+interval=once
+
+[info]
+label=
+command=echo -e Arch Linux
+interval=10
+#color=#36a399
+color=#FFFFFF
+
+[memory]
+label=
+command=/usr/lib/i3blocks/memory
+interval=10
+#color=#e38c2d
+color=#FFFFFF
+
+#[Weather]
+#command=~/.config/i3/IconicWeather.sh "10001"
+#interval=1800
+#color=#FFFFFF
+
+[disk-root]
+label= Free:
+command=/usr/lib/i3blocks/disk /
+interval=30
+#color=#1793D1
+color=#FFFFFF
+
+[load]
+label=
+command=/usr/lib/i3blocks/load_average
+interval=10
+color=#FFFFFF
+
+#[volume]
+#label=
+#command=/usr/lib/i3blocks/volume
+
+[time]
+label=
+command=date '+%a %d-%m-%y %l:%M:%S %p'
+#command=date '+%a %m-%d-%y'
+interval=1
+color=#FFFFFF

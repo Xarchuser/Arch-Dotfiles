@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<JWM>
+	<StartupCommand>
+		lxpolkit &
+		feh --bg-scale /home/xtreme/Imagens/walpaper/o2964615.jpg &
+		tint2 -c /home/xtreme/.config/tint2/tint2rc-minimal.tint2rc &
+		xcompmgr -c -t -5 -l -5 -r 3.5 -o .5 &
+	</StartupCommand>
+
+    <Group>
+        <Option>centered</Option>
+    </Group>
+
+    <WindowStyle>
+        <Width>1</Width>
+        <Height>1</Height>
+        <Outline>#1F292E</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Outline>#1D272B</Outline>
+        </Active>
+    </WindowStyle>
+
+    <Desktops width="2" height="1"></Desktops>
+
+    <FocusModel>click</FocusModel>
+    <SnapMode distance="10">border</SnapMode>
+    <MoveMode coordinates="off">opaque</MoveMode>
+    <ResizeMode coordinates="off">opaque</ResizeMode>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="Right">rdesktop</Key> <Key mask="A" key="Left">ldesktop</Key>
+    <Key mask="A" key="m">maximize</Key>
+    <Key mask="A" key="i">minimize</Key>
+    <Key mask="A" key="e">exec: dmenu_run -fn 'xft:Terminus:pixelsize=12' -nb '#191919' -nf '#9ac0cd' -sb '#191919' -sf '#bf3f34' -l 5 -p 'MENU'</Key>
+    <Key mask="A" key="f">move</Key>
+    <Key mask="A" key="v">resize</Key>
+    <Key mask="A" key="d">showdesktop</Key>
+    <Key mask="A" key="a">fullscreen</Key>
+    <Key mask="A" key="t">exec: termite</Key>
+    <Key mask="A" key="space">window</Key>
+    <Key mask="A" key="r">exec: jwm -restart</Key>
+    <Key key="Print">exec: scrot</Key>
+
+    <Mouse context="root" button="1">exec: feh --randomize --bg-fill img</Mouse>
+    <Mouse context="root" button="2">showdesktop</Mouse>
+</JWM>

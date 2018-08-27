@@ -1,0 +1,807 @@
+history 
+c
+pacman -S 
+sudobangbang !!
+sudobangbang 
+!!
+source config.fish 
+cd ..
+vim sudobangbang.fish 
+touch sudobangbang.fish
+vim fish_prompt.fish 
+sl
+cd functions/
+rmr test/
+cd .config/fish/
+cd.
+pwd
+cd
+mkdir test ; and cd test
+fish_user_key_bindings 
+upzshrc 
+vim .config/fish/functions/fish_user_key_bindings.fish
+.config/fish/functions/fish_user_key_bindings.fish
+vim .config/fish/
+pacman
+fish_update_completions 
+htop
+tentando copiar isso tentando copiar isso
+neo
+neofetch
+killxorg 
+sysinfo 
+ls
+els
+vtop
+ranger
+exit
+urxvtc 
+vim sxhkdrc
+cd .config/sxhkd/
+urxvtd 
+vim bspwmrc 
+cd .config/bspwm/
+xrdb -merge ~/.Xdefaults
+xrdb --merge .Xdefaults
+xdr --merge .Xdefaults
+vim .Xdefaults
+vim .Xresources 
+sl -a
+ll
+rofi -show windowcd
+rofi -show combi
+rofi -show drun
+rofi -show ssh
+rofi -show run
+rofi -show window
+rofi
+rofi -modi run -show run
+cd sxhkd/
+cd .config/
+cd Dotfiles/Arch/
+cd dotfiles/
+cd HASKS/
+cd Documents/
+cd Downloads/
+cd Hasks/
+s
+[a
+cd 
+d
+vim sxhkdrc.save.1 
+dmenu_run -i -x 415 -y 330 -w 450 -h 20 -l 4 -fn 'xft:FontAwesome:pixelsize=10' -nb '#111111' -nf '#FFFBF8' -sb '#15967D' -sf '#111111'
+notify-send -u critical 'Screenshot saved to ~/Imagens'
+notify-send -u normal 'Screenshot saved to ~/Imagens'
+notify-send -u medium 'Screenshot saved to ~/Imagens'
+notify-send -u low 'Screenshot saved to ~/Imagens'
+vim sxhkdrc.save 
+cd urxvt-scritps/
+fish_config 
+google
+nmtui-connect 
+help
+cd -
+vim config.fish
+vim fishd.paulo 
+vim .xinitrc 
+vim .x
+ex
+dmesg 
+vim .Xdefaults 
+script256colors.pl 
+clear 
+clear
+clea
+cls
+vim key
+vim keys 
+cd .urxvt/ext/
+touch keys
+cd ext/
+cd .urxvt/
+www.google.com
+Bem-vindo ao fish, o friendly interactive shell
+vim keyboard-select 
+touch keyboard-select
+ls -la
+ranger 
+echo $LANG 
+echo $ANDROID_HOME 
+fkill 
+git clone https://github.com/mustafaozhan/Breeze-Adapta.git; cd Breeze-Adapta; chmod +x install.sh;  sh install.sh
+git clone https://github.com/mustafaozhan/Breeze-Adapta.git  cd Breeze-Adapta chmod +x install.sh  sh install.sh
+trizen -s xcursor
+cheat grep
+print -l **/*(Lk+3)
+cheat zsh
+cheat -l
+trizen -Syu
+ls -a
+trizen -s fkill
+cheat tcpdump
+cheat tar
+ip neighbor show
+ip -6 route
+ip route
+cheat ip
+cheat ip 
+cheat ifconfig
+cheat uname
+exi
+/home/xtreme/.local/bin
+python setup.py install --user
+python setup.py install
+cd cheat/
+els 
+cd CHEAT/
+mkdir CHEAT
+pip2.7 install --user docopt pygments
+pip2.7 install docopt pygments
+pip2.7 install python-pip
+pip2.7 search python-pip
+pip2.7 list Python
+trizen --info cheat
+trizen -i cheat
+trizen -Sh
+trizen 
+trizen -Q neo
+trizen --sync cheat
+trizen
+trizen --files chea
+trizen  --query chea
+trizen  --deptest 
+lsof 
+screenfetch 
+lspci 
+lslogins 
+lscpu 
+lsmem  
+lsattr 
+lsblk 
+neofetch 
+cd  /
+cd opt/
+cd protocolos\ de\ redes/
+cd AIRCRACK/
+cd ...
+cd music/
+cd Musica/
+cd Linux-mint/
+cd torrents/
+torrents/
+cd docum
+cd media/
+cd /
+ext
+poweroff 
+cp -r EQUIPE\ LOST\ CONTA\ ATACA\ 2017/ ~
+cp EQUIPE\ LOST\ CONTA\ ATACA\ 2017/ ~
+cd /mnt/
+sudo mount /dev/sdb1 /mnt/
+mount /dev/sdb1 /mnt/
+sç
+l
+startx
+links
+elinks
+lynx 
+watch -n 1 date
+date
+cal
+ncmpcpp 
+bat
+mpd
+sll
+w3m Apps.png 
+cd Imagens/
+cd var/
+su
+cd Desktop/
+Desktop/
+csl
+cd  ..
+vim mpd.conf 
+cd mpd/
+dir
+reboot
+sudo killall zsh
+matar zsh
+zsh
+startx 
+ls 
+mv xinitrc-backup .xinitrc
+mv .xinitrc xinitrc1
+cl
+cd ~
+pacaur -S zsh zsh-completions
+echo $SHELL
+SL
+ncmpcpp
+pacman -Qs libboost
+sudo anbox container-manager --android-image=/var/lib/anbox/android.img --data-path=/home/xtreme/anbox-data --privilege
+sudo XDG_RUNTIME_DIR=/run/user/100
+ifconfig 
+unistall 
+pacSyu
+pacSYu
+anbox session-manager --gles-driver=host
+ps ax | grep anbox
+launch 
+└──> $ sudo anbox container-manager --android-image=/var/lib/anbox/android.img --data-path=/home/xtreme/anbox-data --privilege --daemon
+sudo kill -9 5869 5870
+sudo anbox container-manager --android-image=/var/lib/anbox/android.img --data-path=/home/xtreme/anbox-data --privilege --daemon
+sudo anbox container-manager 
+cat servicos-para-iniciar-anbox.txt 
+ifconfig
+sudo ifconfig anbox0 down
+sudo dhcpcd anbox0
+f11 
+sudo rm /var/lib/pacman/db.lck 
+rm /var/lib/pacman/db.lck 
+bashrc 
+sudo killall polybar
+ip link
+pacaur -k
+sha512sum
+\z
+z
+zaax
+ a
+as
+axcxzx
+checkupdates | grep SSL
+checkupdates | grep gcc
+checkupdates 
+autostart
+cd Telegram/
+cd /opt/
+cat Instalando\ programas 
+locate telegram
+cd Tips/
+sudo leafpad configb
+cd polybar/
+pacman -Sl | cut -d' ' -f2 | grep xfce
+pacman -Sl | cut -d' ' -f2 | grep
+autostart 
+sudo nano /home/xtreme/.config/lxsession/LXDE/autostart
+cat /home/xtreme/.config/lxsession/LXDE/autostart
+cd /home/xtreme/.config/autostart
+cat /home/xtreme/.config/autostart
+locate autostart
+locate autosart
+cd /bin/ | grep launch
+sudo mv launch.sh launch
+cd /bin/
+cd /bin/bash
+launch.sh 
+expac -h
+expac 
+bashrc
+unistall | grep xfce
+unistall | grep linux
+pacR emacs
+unistall
+upbashrc 
+nano .bashrc 
+la -la
+pacaur -S expac
+cat config\ do\ roteador 
+nano
+exit 
+nano router 
+nano 
+sudo anbox container-manager --android-image=/var/lib/anbox/android.img --data-path=/home/xtreme/anbox-data --privileged
+$sudo anbox container-manager --android-image=/var/lib/anbox/android.img --data-path=/home/<USERNAME>/anbox-data --privileged
+adb uninstall acmarket.apk 
+adb uninstall acmarket
+adb unistall acmarket.apk 
+cd Telegram\ Desktop/
+--android-image=/var/lib/anbox/android.img --data-path=/home/xtreme/anbox-data --privilege --daemon
+cd Dow
+cd DOW
+xl
+nano servicos-para-iniciar-anbox.txt 
+touch servicos-para-iniciar-anbox.txt 
+sudo kill -9 16500 16499
+kill -9 16500 16499
+adb install acmarket.apk 
+cd ~/Downloads/
+cat startanbox.sh 
+sudo kill -9  16139 16141 16159 16166 16167 16183 16185  16194 16254
+kill -9 └──> $ kill 16139 16141 16159 16166 16167 16183 16185  16194 16254
+kill -s anbox
+kill --help
+kill -9 anbox
+./startanbox.sh 
+sudo chmod +x startanbox.sh 
+chmod +x startanbox.sh 
+sudo nano startanbox.sh 
+nano startanbox.sh 
+cat launch.sh 
+sudo touch startanbox.sh
+touch startanbox.sh
+sudo anbox container-manager—android-image=/var/lib/anbox/android.img—data-path=/home/xtreme/anbox-data—privileged
+sudo anbox container-manager—android-image=/var/lib/anbox/android.img—data-path=/home/xtreme/anbox-data —privileged
+sudo anbox container-manager —android-image=/var/lib/anbox/android.img —data-path=/home/xtreme/anbox-data —privileged
+XDG_RUNTIME_DIR=/run/user/100
+anbox session-manager —gles-driver=host
+$sudo anbox container-manager —android-image=/var/lib/anbox/android.img —data-path=/home/<USERNAME>/anbox-data —privileged
+./anboxstart.sh 
+sudo chmod +x anboxstart.sh 
+chmod +x anboxstart.sh 
+sudo nano anboxstart.sh 
+nano anboxstart.sh 
+sudo touch anboxstart.sh
+touch anboxstart.sh
+leafpad launch.sh 
+nano launch.sh 
+dmesg
+nmcli con add type bridge ifname anbox0 -- connection.id anbox-net ipv4.method shared ipv4.addresses 192.168.250.1/24
+./internet.sh start
+./internet.sh 
+chmod +x internet.sh 
+nano internet.sh 
+touch internet.sh
+adb install SuperRetro16\ \(SNES\)\ v1.6.27\ \@GlobalAppsBot.apk 
+sudo adb install Poweramp.apk 
+adb install Poweramp.apk 
+mv Poweramp\ Music\ Player\ v2.0.10_588\ \@GlobalAppsBot.apk  Poweramp.apk
+adb install Spotify\ Mod\ v7.8.0.607\ \@GlobalAppsBot.apk 
+adb install Root\ Explorer\ v4.0.7\ \@GlobalAppsBot.apk 
+cd Telegram
+systemctl status anbox-container-manager.service
+sudo systemctl stop anbox-container-manager.service
+sudo systemctl disable anbox-container-manager.service
+systemctl stop anbox-container-manager.service
+locate android.img
+sudo updatedb
+updatedb 
+XDG_RUNTIME_DIR=/run/user/1000
+$XDG_RUNTIME_DIR=/run/user/1000
+pacaur -Syu
+sudo anbox session-manager
+anbox session-manager
+adb install EsExploradorPro_1.0.4.apk 
+pacaur -S android-tools
+pacaur -Ss android tools 
+pacaur -Ss adb 
+sudo anbox session-manager --gles-driver=host 
+sudo anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+anbox session-manager --gles-driver=host 
+lsmod | grep ash
+lsmod | grep bind
+anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+anbox session-manager --gles-driver=host &
+anbox sessio-manager
+anbox 
+sudo htop
+top
+sudo killall anbox
+systemctl start anbox-container-manager.service
+anbox
+sudo systemctl enable anbox-container-manager.service
+sudo modprobe binder_linux
+sudo modprobe ashmem_linux
+pacman -Qs anbox
+pacaur -S  linux-lts-headers
+pacaur -S -i linux-lts-headers
+pacaur -Ss kernel headers
+pacaur -Ss kernel 4.9.30-1-lts headers
+pacaur -S kernel lts headers
+pacaur -S kernel 4.9.30-1-lts headers
+nano config 
+touch config
+touch
+cd neofetch/
+cc
+mv config1 config
+mv config configback
+nano config1 
+touch config1
+cd ncmpcpp/
+cat config
+cat config 
+cd w3m/
+pacaur -S anbox-modules-dkms-git
+pacaur -S anbox-git
+pacman -Ss anbox
+noe
+ne
+xc
+v
+sudo leafpad config
+cd .config/polybar/
+x neo
+pacaur -S E4rat
+sudo  glxinfo | grep direct
+pacaur -S glxinfo
+sudo hdparm -t /dev/sda
+sudo fdisk -l
+sufo fdisk -l
+pstree
+free -h
+packettracer 
+sudo pacman -U packettracer-7.0-3-x86_64.pkg.tar.xz 
+sudo make INSTALL
+sudo make install
+sudo tar xvJf packettracer-7.0-3-x86_64.pkg.tar.xz 
+tar xvJf packettracer-7.0-3-x86_64.pkg.tar.xz 
+cd PACKET/
+cd packet
+tar xjf packettracer-7.0-3-x86_64.pkg.tar.xz 
+wget http://www.labcisco.com.br/app/Cisco-PT-620.tar.gz
+anki
+cd anki-2.0.45
+tar xjf anki-2.0.45-amd64.tar.bz2 
+pacaur -S knotes
+acroread 
+pacaur -S acroread
+neofetch --w3m ai.png --size 30px 30px
+neofetch --w3m ai.png --size 300px 305px
+neofetch --w3m ai.png 
+neofetch --image ai.jpg --size 300px 305px
+w3m --help
+nano $HOME/.config/terminator/config
+w3m ai.png 
+w3m
+└──> $ neofetch --w3m ai.png --size 300px 305px
+sudo leafpad lxde-rc.xml 
+cd openbox/
+sudo leafpad configb 
+cd polybar
+cat interne 
+sls
+cat /usr/bin/launch.sh 
+locate lxsession
+leafpad autostart 
+nano autostart 
+cd LXDE/
+cd /home/xtreme/.config/lxsession
+nano /home/xtreme/.config/lxsession
+locate xsession
+localte xsession
+polybar -q example
+polybar -r -q -c ~/.config/polybar/configb mybar
+cd ;
+sudo cp launch.sh  /usr/bin/
+cd $HOME/.config/polybar/
+polybar   -r -q -c ~/.config/polybar/configb mybar
+polybar -q -r -c configb mybar
+polybar -q example  -r -q -c ~/.config/polybar/configb mybar
+locate launch.sh
+sudo updatedb 
+sudoupdatedb 
+cd /usr/bin/
+./launch.sh 
+,.
+sudo chmod +x $HOME/.config/polybar/launch.sh
+chmod +x $HOME/.config/polybar/launch.sh
+sudo nano launch.sh
+nano launch.sh
+touch launch.sh
+checkupdates --help
+leafpad configb
+leafpad config
+lLl
+polybar -r -q -c configb mybar
+nano config
+nano leafpad configb
+pacSyi
+pacaur -Ss cryptsetup
+upbashrc
+neofetch --w3m  ~/Imagens/w3m/ai.png 
+cp Apps.png ~/Imagens/
+rm Apps.png 
+mv ai.png Apps.png
+mv *.png w3m/
+nmcli 
+mdp
+;42;17M;42;17Mqç
+alsamixer 
+al
+neofetch --w3m  ~/Imagens/ai.png 
+opera
+pacaur -S  opera
+pacaur -S -i opera
+pacaur -Ss -i opera
+pacaur -i opera
+pacaur -h
+pacaur -Ss Opera Browser
+pacaur -Ss Opera
+pacaur -Ss dd
+gawk
+pacaur -Ss awk
+ffmpeg 
+pacaur -Ss ffmpeg
+pacaur -Ss netcat
+pacaur -u --noconfirm
+pacaur -u
+pacaur -Ss initramfs-linux-lts.img
+pacaur -S linux-lts
+systemctl list-units
+pacaur -S neofetch
+pacaur -l
+sudo nano /etc/pacman.d/mirrorlist
+locate mirrorlist
+systemctl --help
+systemctl | grep  .service
+systemctl | grep -c .service
+systemctl | grep -c3 .service
+systemctl | grep .service
+systemctl
+systemctl --failed
+pacaur 
+sudo modprobe ath9k
+lsmod | grep ath
+cd alsa/
+cd /usr/share/
+pavucontrol
+paprefs 
+pacaur -S paprefs
+nano default.pa 
+cd /etc/pulse/
+alsamixer
+amixer sset Headphone 50 unmute
+pacaur -Ss alsa
+pacaur -S alsa
+cd /var/cache/pacman/pkg/ 
+sudo nano alsa-base.conf 
+sudo cp alsa-base.conf alsa.bk
+cat /proc/asound/cards
+cd /etc/modprobe.d/
+pacaur -S alsa-utils
+pacaur -S alsa-plugins
+pacaur -S alsa-lib 
+pacaur -s alsa-lib alsa-plugins alsa-utils
+sudo pacman -Qs  alsa-utils
+sudo pacman -Qs  alsa-plugins 
+sudo pacman -Qs alsa-lib
+sudo pacman -Qs alsa-lib alsa-plugins alsa-utils
+lsmod | grep snd
+lsmod | gre snd
+pacaur -Ss paprets 
+pacaur -S paprets pavucontrol
+sudo pacman -Ss paprets 
+sudo pacman -S paprets pavucontrol
+sudo pacman -S pulseaudio
+wat
+polybar -q  example
+sudo leafpad .config/polybar/config 
+wat -h
+wat --help
+uol
+it
+firefox
+pacaur -S firefox
+polybar -q -r example
+neofetch --catimg  ~/Imagens/ai.png 
+neofetch --catimg  ~/Imagens/fsoc.png 
+neofetch --catimg -w 120 -r 2 ai.png
+catimg -w 160 -r 2 ai.png 
+catimg -w 60 -r 2 ai.png 
+catimg -w 20 -r 1 ai.png 
+catimg -w 120 -r 1 ai.png 
+catimg -w 120 -r 2 ai.png 
+catimg -w 100 -r 2 ai.png 
+catimg -w 200 -r 2 ai.png 
+catimg -w 400 -r 2 ai.png 
+catimg -r 2 ai.png 
+catimg -r 3 ai.png 
+catimg -r 1 ai.png 
+catimg --help
+catimg ai.png 
+pacaur -S off
+pacaur -Ss iterm2
+pacaur -Ss off
+pacaur -Ss tycat
+pacaur -S tycat
+pacaur -S iterm2
+neofetch --help
+pacaur -S jp2a
+pacaur -Ss jp2a
+pacaur -Ss caca
+pacaur -S caca
+neofetch -h
+neofetch --catimg  ~/Imagens/fso.png 
+pacaur -S catimg
+neofetch --w3m  ~/Imagens/fso.png 
+neofetch --catimg  ~/Imagens/fso.png
+└──> $ neofetch --catimg  ~/Imagens/fso.png
+eexit
+pacaur -S nerd-fonts-complete
+pacaur -Ss Nerd Fonts Complete
+gucharmap 
+fc-match FontAwesome:weight=bold:size=14
+fc-match myfont:weight=bold:size=14
+ping
+uname -r
+uname -k
+find -xtype l -print
+sudo ranger
+cd  /var/cache/pacman/pkg/
+sudo nano ~/.config/polybar/config
+nano ~/.config/polybar/config
+scrot
+neofetch --w3m  ~/Imagens/ai.png scrot
+neofetch --w3m  ~/Imagens/ai.png | scrot
+neofetch --w3m  ~/Imagens/ai.png
+neofetch --w3m  ai.png 
+w3m 
+neofetch --w3m  ~/Imagens/imagensjpeg/o980547.jpg 
+neofetch --w3m  ~/Imagens/
+neofetch --w3m  ~/Imagens/Apps.png 
+neofetch --w3m  ~/Imagens/ap\,550x550\,12x12\,1\,transparent\,t.u2.png
+neofetch --w3m  ~/Imagens/apps.png 
+neofetch -w3m  ~/Imagens/ai.png 
+neofetch --w3m ~/Imagens/ai.png 
+neofetch --w3m ~/Imagens/ai.png
+sudo neofetch --w3m /home/xtreme/Imagens/ai.png
+neofetch --w3m /home/xtreme/Imagens/ai.png
+pac w3m
+pacS w3m
+rmr tema/
+sl tema/
+sudo rm -r Vanilla-DMZ-AA/
+sudo rm -r Adwaita/
+sudo rmr Adwaita/
+rmr Adwaita/
+sl Adwaita/
+sl Aulas_AED_2017/
+rmr a
+rm a
+sl a
+rm 120386-Turquoise\ Nights\ Ob.obt 
+rm Cisco\ Packet\ Tracer\ 6.0.1\ for\ Linux\ -\ Ubuntu\ installation\ \(no\ tutorials\) 
+mv *.tgz pacotes/
+rmr Conky-lua/ MAC\ OS/ Leaves/ pacaur_install.sh  revolutionary_clocks/ Turquoise-Nights/ Vanilla-DMZ-AA/ Windows-10-Dark-master/ xdg/
+mv *.zip *.xz *.gz pacotes/
+mkdir pacotes
+mv *iso isos/
+mkdir isos
+pacaur -Ss facebook 
+pacaur -Ss facebook lite
+pacS facebook
+pacaur -Ss facebook
+cd Programas\ em\ c/
+sl ncmpcpp/
+cd fonts/
+sl bin/
+cd screenshot/
+rmr __MACOSX/
+sl __MACOSX/
+rmr Pixel-Matrix_DeltaNine/
+sl Pixel-Matrix_DeltaNine/
+sl temas/
+sl screenshot/
+sl imagensjpeg/
+rmr cathexis_suite/
+sl cathexis_suite/
+rmr home/
+sl home/
+mv *.png screenshot/
+mkdir screenshot
+mv *.zip temas/
+mkdir temas
+cd imagensjpeg/
+mv *.jpg imagensjpeg/
+mkdir imagensjpeg
+mv 2017-04-30-000432_1366x768_scrot.png  ~/Imagens/
+plank --preferences
+cd ArchCursorTheme/
+cd ~/.icons/
+init 6
+sudo nano .config/polybar/config 
+journalctl -xe
+neofetch --h
+cmatrix
+cd lib
+cd etc/
+la
+man vim
+vim config
+vim
+cp config config.bk
+cat error.log 
+cd /home/xtreme/.config/ncmpcpp/
+shutdown -h now
+systemctl --failed --type=services
+systemctl --failed type=services
+systemctl --failed=services
+systemctl -failed=type:services
+systemctl --failed=type:services
+systemctl list-unit-files
+systemctl --all
+ifconfig wlp1s0 up
+ifconifg
+lsmod | gre ath
+sudo nano config
+cd ~/.config/
+cd INFRA_FW/
+cd COPIAR/
+cd COPIAR_INFRA_FW/
+ip config
+pacaur -S google-chrome pacaur neofetch grub-customizer
+check
+resl
+nano config.backup 
+cd ~/.config/polybar/ 
+locate Cisco-PT-7x64
+locate Cisco-PT-7x64.tar.gz
+wifi
+wifi-menu
+nano /home/xtreme/.config/mpd/mpd.conf
+locate mpd.conf
+pd
+cat mpdconf.example 
+cd /usr/share/doc/mpd/
+cat /home/xtreme/.config/mpd/mpd.conf
+cat /etc/mpd.conf 
+iw dev
+iwdev
+ipconfig
+nano quintaquestao.c 
+gcc -o quinta quintaquestao.c 
+gcc quintaquestao.c 
+nno quintaquestao.c 
+cat quintaquestao.c 
+./quartacommenos 
+./quartaquestao
+./terceiraquestao 
+./AGORAVAI 
+cd QUESTOESPARCIAL/
+./primeiraquestao1 
+cat setimaquestao.c 
+lsmod | grep ath > interne
+pacaur -S  anbox-modules-dkms-git
+pacaur -S anbox-git 
+pacaur -S  anbox-modules-dkms-git --noconfirm
+~hop
+pacaur -S anbox-git anbox-modules-dkms-git anbox-image --noconfirm
+cat mudar-mouse.txt 
+cd .icons/
+pacR gtk-xfce-engine
+pacman -Qs xfce
+pacR slgtk-xfce-engine 
+pacman -R gtk-xfce-engine 
+sudo pacman -R xfce4-session xfce4-settings
+sudo pacman -R xfwm4  xfwm4-themes darkcold-xfce-theme
+sudo pacman -R xfwm4
+pacman -R xfwm4
+wget https://aur.archlinux.org/packettracer.git
+pacaur -S wget
+pacaur -Ss wget
+pacaur -S -e packettracer
+pacaur -S packettracer
+pacaur -S packettracer61
+pacaur -Ss packettracer
+nano /etc/xdg/xfce4/xinitrc
+nano xinitrc
+cd /etc/X11/xinit/
+cd /etc/X11/xinit/xinitrc
+locate xinitrc
+locate .xinitrc
+pacaur -S libreoffice
+pacaur -Ss libre office
+pacaur -S libre office
+nano terceiraquestao.c
+nano teste1questao.c 
+gcc -o AGORAVAI  teste1questao.c 
+./CORRIGIDA 
+gcc -o CORRIGIDA  teste1questao.c 
+gcc -o primeiraquestao1 teste1questao.c 
+nano primeiraquestao.c
+cat testequarta.c 
+mv primeiraquestao.c segundaquestao.c terceiraquestao.c testequarta.c QUESTOESPARCIAL/
+LS
+mkdir QUESTOESPARCIAL
+nano testequarta.c
+nano quartaquestao.c 
+gcc -o quartacommenos testequarta.c 
+./quarta
+gcc -o quarta testequarta.c 
+nano testequarta
+nano terceiraquestao.c 
+./testequarta 
+gcc -o testequarta testequarta.c 
+./quartaquestao1
+gcc -o quartaquestao1 quartaquestao.c 

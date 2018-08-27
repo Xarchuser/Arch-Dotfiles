@@ -1,0 +1,203 @@
+
+!!----------------------------------------------------------------------------!!
+!! Xft (font) settings
+!!----------------------------------------------------------------------------!!
+
+xft*dpi: 96
+xft*antialias: false
+xft*hinting: full
+xft*rgba: rgb
+xft*autohint: false
+xft*hintstyle: hintslight
+xft*lcdfilter: lcddefault
+
+!!----------------------------------------------------------------------------!!
+!! Extensions ~/.urxvt./ext
+!!----------------------------------------------------------------------------!!
+
+URxvt.perl-ext-common: default,tabbed,keyboard-select,matcher,resize-font
+
+!!----------------------------------------------------------------------------!!
+!! general settings
+!!----------------------------------------------------------------------------!!
+
+
+urxvt.font:xft:RobotoMono Nerd Font Mono:size=9
+!urxvt.font:xft:pragmatapro for powerline:size=9,xft:meguri:pixelsize=9,xft:PowerlineSymbols:size=9,xft:Droid Sans Mono for Powerline Plus Nerd File Types Mono:pixelsize=9
+!urxvt.boldFont:xft:pragmatapro for powerline:size=9,xft:meguri:pixelsize=9,xft:PowerlineSymbols:size=9,xft:Droid Sans Mono for Powerline Plus Nerd File Types Mono:pixelsize=9
+!uRxvt.imFont:xft:pragmatapro for powerline:size=9,xft:meguri:pixelsize=9,xft:PowerlineSymbols:size=9,xft:Droid Sans Mono for Powerline Plus Nerd File Types Mono:pixelsize=9
+!uRxvt.italicFont:xft:pragmatapro for powerline:size=9,xft:meguri:pixelsize=9,xft:PowerlineSymbols:size=9,xft:Droid Sans Mono for Powerline Plus Nerd File Types Mono:pixelsize=9
+
+
+!!----------------------------------------------------------------------------!!
+!! Font-size
+!!----------------------------------------------------------------------------!!
+
+!URxvt.font-size.step: 4
+!URxvt.keysym.C-plus:      font-size:increase
+!URxvt.keysym.C-minus:    font-size:decrease
+!URxvt.keysym.C-equal:   font-size:reset
+!URxvt.keysym.C-slash:   font-size:show
+
+ URxvt.keysym.C-Down:  resize-font:smaller
+ URxvt.keysym.C-Up:    resize-font:bigger
+
+
+
+URxvt.letterSpace: 0
+urxvt.scrollBar: false
+URxvt.internalBorder: 1
+URxvt.dynamicColors: on
+URxvt.borderLess: false
+URxvt.scrollBar: false
+URxvt.urgentOnBell: True
+URxvt.visualBell: False
+URxvt.saveLines: 4095
+URxvt.mouseWheelScrollPage: false
+!URxvt.termName: rxvt-unicode-256color
+!URxvt.geometry: 153x26+302+161
+
+!URxvt*background.expr: 'align 1, 0, pad keep { load "~/config_files/term_logo.png" }'
+
+
+!!----------------------------------------------------------------------------!!
+!! Tabs
+!!----------------------------------------------------------------------------!!
+
+URxvt.tabbed.tabbar-fg : 161
+URxvt.tabbed.tabbar-bg : 235
+URxvt.tabbed.tab-fg : 15
+URxvt.tabbed.tab-bg : 235
+
+!!----------------------------------------------------------------------------!!
+!! Keyboard-selec
+!!----------------------------------------------------------------------------!!
+
+URxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-S-S: perl:keyboard-select:search
+
+!!----------------------------------------------------------------------------!!
+!! Matcher
+!!----------------------------------------------------------------------------!!
+
+URxvt.url-launcher: /usr/bin/falkon
+URxvt.matcher.button: 1
+URxvt.keysym.C-Delete: perl:matcher:last
+URxvt.keysym.M-Delete: perl:matcher:list
+URxvt.matcher.rend.0: Uline Bold fg5
+URxvt.colorUL: #4682B4
+
+
+!!----------------------------------------------------------------------------!!
+!!Urxvt  colors
+!!----------------------------------------------------------------------------!!
+
+URxvt.colorIT:                        #DEDEDE
+URxvt.colorBD:                        #B1ACAC
+!URxvt.colorUL:                        #1A8A74
+URxvt.highlightTextColor:             #ffffff
+URxvt.highlightColor:                 #1A8A74
+!URxvt.underlineColor:                 #1D1F21
+
+
+!Disables the insanely annoying Ctrl+Shift shortcut that enters ISO14755 mode
+URxvt.iso14755:         False
+
+!!----------------------------------------------------------------------------!!
+!!General   colors
+!!----------------------------------------------------------------------------!!
+
+! special
+!*.foreground:   #c5c8c6
+!*.background:   #1d1f21
+!*.cursorColor:  #c5c8c6
+
+! black
+!*.color0:       #282a2e
+!*.color8:       #373b41
+
+! red
+!*.color1:       #c12b4d
+!*.color9:       #ea1f4d
+
+! green
+!*.color2:       #282a2e
+!*.color10:      #c5c8c6
+
+! yellow
+!*.color3:       #de935f
+!*.color11:      #f0c674
+
+! blue
+!*.color4:       #85678f
+!*.color12:      #b294bb
+
+! magenta
+!*.color5:       #85678f
+!*.color13:      #b294bb
+
+! cyan
+!*.color6:       #5e8d87
+!*.color14:      #8abeb7
+
+! white
+!*.color7:       #f5f6f7
+!*.color15:      #c5c8c6
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #b7416e
+*.color9:       #b7416e
+
+! green
+*.color2:       #282a2e
+*.color10:      #c5c8c6
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #85678f
+*.color12:      #b294bb
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #f5f6f7
+*.color15:      #c5c8c6
+
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+rofi.color-normal:                   argb:00000000,  #D8DEE9 , argb:00000000,  #b7416e ,  #1B2B34
+! Color scheme for urgent row
+rofi.color-urgent:                   argb:00000000,  #F99157 , argb:00000000,  #F99157 ,  #1B2B34
+! Color scheme for active row
+rofi.color-active:                   argb:00000000,  #6699CC , argb:00000000,  #6699CC ,  #1B2B34
+! Color scheme window
+!rofi.color-window:                   argb:ee222222,  #1A8A74 ,  #1A8A74
+rofi.color-window:                   argb:ee222222,  #b7416e ,  #b7416e
+! Separator style (none, dash, solid)
+rofi.separator-style:                solid
+!Font
+rofi.font: pragmatapro for powerline 9
+
